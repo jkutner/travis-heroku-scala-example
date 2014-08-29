@@ -1,0 +1,9 @@
+language: scala
+
+script: sbt stage
+
+env:
+  global:
+    secure: odcO1uoXCHUWp8XrJV5iak7wBUnJb9Q3mQUk+9K4Hm/gbv4l6JbVgluREkO9lIFAPz9Ax8j7uUaCo+CQ53j1NVXAyyatkiOyOIgLLt1YZEJ9fa0pDoHdsYhuA6mKSApTkwmCQ5XLbb8pYFsINgOOJY5fquTB8vSR6wa+6Ieima0=
+
+after_success: sbt deployHeroku
