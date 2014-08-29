@@ -9,4 +9,4 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "0.7.4" excludeAll(Exc
 
 addSbtPlugin("org.jruby" % "sbt-rubygems" % "0.1-SNAPSHOT")
 
-net.virtualvoid.sbt.graph.Plugin.graphSettings
+//net.virtualvoid.sbt.graph.Plugin.graphSettings
