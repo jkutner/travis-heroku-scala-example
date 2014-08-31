@@ -1,6 +1,6 @@
 resolvers += Resolver.url(
   "bintray-sbt-plugin-heroku",
-   url("http://dl.bintray.com/heroku/sbt-plugin"))(
+   url("http://dl.bintray.com/heroku/sbt-plugins/"))(
        Resolver.ivyStylePatterns)
 
 resolvers += Resolver.url(
